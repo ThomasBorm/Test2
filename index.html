@@ -16,7 +16,7 @@ body, html {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("Lights.jpg");
+    background-image: url("danny-howe-361440-unsplash.jpg");
     min-height: 70%;
 }
 .w3-bar .w3-button {
@@ -54,9 +54,9 @@ body, html {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small"></span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
-    <span class="w3-large"></span>
+    <span class="w3-jumbo w3-hide-small">- YU//宇 -</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">- YU//宇 -</span><br>
+    <span class="w3-large">while(1) { printf(”%d”, “END MESSAGE”); } /* goodby */</span>     
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">LISTEN HERE</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
@@ -80,7 +80,8 @@ body, html {
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">- YU//宇 -</h3>
+  <h3 class="w3-center">OUR WORK</h3>
+
   <div class="w3-container" style="padding:128px 16px" id="work">
   <p class="w3-center w3-large">I make music to toucht emotions</p>
   </div>
@@ -165,13 +166,11 @@ function myMap()
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
   var marker = new google.maps.Marker({
     position: myCenter,
   });
   marker.setMap(map);
 }
-
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -179,11 +178,8 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
-
 // Toggle between showing and hiding the sidebar when clicking the menu icon
 var mySidebar = document.getElementById("mySidebar");
-
 function w3_open() {
     if (mySidebar.style.display === 'block') {
         mySidebar.style.display = 'none';
@@ -191,7 +187,6 @@ function w3_open() {
         mySidebar.style.display = 'block';
     }
 }
-
 // Close the sidebar with the close button
 function w3_close() {
     mySidebar.style.display = "none";
